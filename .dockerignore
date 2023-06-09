@@ -1,0 +1,6 @@
+# Do not Copy
+.git
+.github
+terraform
+Dockerfile
+calculator.py

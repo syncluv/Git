@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result.css') }}">
+  </head>
+  <body>
+    <h1>{{ algebra_type }} Result</h1>
+    <div class="result-container">
+      <div class="result-text">{{ result }}</div>
+    </div>
+    <br>
+    <a href="{{ url_for('home') }}" class="home-button">Home</a>
+  </body>
+</html>
